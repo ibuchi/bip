@@ -8,6 +8,8 @@
     <link rel="styleSheet" href="css/index.css">
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
         .background {
@@ -35,16 +37,27 @@
         <header>
     
             <nav>
-                <ul>
-                    <img src="images/BIP 2.png" alt="BIP logo" width="200px" class="logo">
-                    <li><a href="#hyperlink">About</a></li>
-                    <li><a href="#hyperlink">Customer Care</a></li>
-                    <li><a href="#hyperlink">Sale</a></li>
-                    <li><a href="#hyperlink">Shop</a></li>
-                    <li><a href="#hyperlink">Home</a></li>
+                <ul id="myNavi" class="navi">
+                    <a><img src="images/BIP 2.png" alt="BIP logo" width="200px" class="logo"></a>
+                    <a href="#hyperlink" class="active">About</a>
+                    <a href="#hyperlink">Customer Care</a>
+                    <a href="#hyperlink">Sale</a>
+                    <a href="#hyperlink">Shop</a>
+                    <a href="#hyperlink">Home</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i>
                 </ul>
             </nav>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myNavi");
+        if (x.className === "navi") {
+            x.className += " responsive";
+        } else {
+            x.className = "navi";
+        }
+    }
 
+</script>
         </header>
     </div>
 
