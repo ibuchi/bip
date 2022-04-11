@@ -1,0 +1,230 @@
+
+body {
+    margin: 0px;
+    
+}
+
+.main {
+    overflow: hidden;
+}
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+header {
+    background-color:rgba(16, 20, 80);
+    min-width: 100vw; 
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+  }
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 50px;
+    margin-right: 20px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+      background-color: coral;
+  }
+
+li {
+    float: right;
+}
+
+.logo{
+    padding: 30px;
+    margin-left: 20px;
+}
+
+/*css for div conatining the text and button */
+ div.cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    width: 600px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: rgba(16, 20, 80, 0.8);
+}
+
+
+div.cont p {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    background: none;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: inherit;
+    text-align: center;
+    font-style: italic;
+} 
+
+div.cont .btn {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 20px;
+    font-family: Georgia;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+button.btn:hover {
+    background-color: rgb(230, 62, 11);
+} 
+
+/* css for the free shipping write up   */
+.orange {
+    background-color: rgb(230, 62, 11);
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+    color:whitesmoke;
+    line-height: 60px;
+    min-width: 100vw;
+
+}
+a {
+    color: whitesmoke;
+}
+
+.container > * {
+    border: 5px solid rgb(16, 20, 80);
+    border-radius: 10px;
+}
+.sweater,
+.sports,
+.tshirt {
+    margin: 10px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+.container > *{
+    flex: 1;
+}
+
+.align {
+    text-align: center;
+    font-size: 80px;
+    font-family: serif;
+}
+.must {
+    text-align: center;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: rgb(16, 20, 80);
+    min-width: 100vw;
+}
+
+/* footer */
+.ft {
+    display: flex;
+    flex-flow: row wrap;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.ft > *{
+    flex: 1;
+}
+
+/* foot note */
+div.footNote {
+    color:whitesmoke;
+    text-align: center;
+    position: relative;
+    top: 40px;
+} 
+
+/* Be our friend input field */
+.sub {
+    padding: 5px;
+}
+
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
+
+/* social media buttons */
+.fa {
+    padding: 0px;
+    font-size: 20PX;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+} 
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-linkedin {
+    color:white;
+}
+
+.fa-instagram {
+    color: white;
+}
