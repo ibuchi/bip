@@ -17,29 +17,16 @@ input[type=text] {
 input[type=text]:focus {
     width: 100%;
 }
-/*
 
-header {
-    background-color:rgba(16, 20, 80);
-    min-width: 100vw; 
-    margin-top: 10px;
-}
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-
-  } */
-
-  .navi {
+/* for the navigation bar */
+.navi {
       background-color: rgba(16, 20, 80);
       overflow: hidden;
-  }
+  } 
 
 .navi a {
-    float: left;
+    float: right;
     display: block;
     color: white;
     text-align: center;
@@ -47,16 +34,11 @@ ul {
     margin-top: 50px;
     margin-right: 20px;
     text-decoration: none;
-  }
+  }  
 
   .navi a:hover {
       background-color: coral;
       transition-duration: 0.6s;
-  }
-
-  .navi a.active {
-      background-color: bisque;
-      color: white;
   }
 
   .navi .icon {
@@ -86,9 +68,8 @@ ul {
 }
 
 
-
 .logo{
-    padding: 30px;
+    padding: 20px;
     margin-left: 20px;
 }
 
