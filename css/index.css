@@ -148,21 +148,6 @@ a {
     border: 5px solid rgb(16, 20, 80);
     border-radius: 10px;
 }
-.sweater,
-.sports,
-.tshirt {
-    margin: 10px;
-    padding: 20px;
-}
-
-.container {
-    display: flex;
-    flex-flow: row wrap;
-    
-}
-.container > *{
-    flex: 1;
-}
 
 .align {
     text-align: center;
@@ -176,12 +161,46 @@ a {
     margin-top: 30px;
 }
 
-.footer {
+
+
+.sweater,
+.sports,
+.tshirt {
+    margin: 10px;
+    padding: 20px;
+}
+
+
+.container {
+    display: flex;
+    flex-flow: row;
+    
+}
+.container > *{
+    flex: 1;
+}
+
+
+
+@media screen and (max-width: 500px){
+    .container {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 2;
+    }
+
+    img {
+    width: 75%;
+    position: relative;
+    left: 5%;
+    }
+}
+
+div.footer, div.footnote {
     background-color: rgb(16, 20, 80);
     min-width: 100vw;
 }
 
-/* footer */
 .ft {
     display: flex;
     flex-flow: row wrap;
@@ -194,12 +213,6 @@ a {
 }
 
 /* foot note */
-div.footNote {
-    color:whitesmoke;
-    text-align: center;
-    position: relative;
-    top: 40px;
-} 
 
 /* Be our friend input field */
 .sub {
@@ -249,4 +262,22 @@ input[type=submit]:hover {
 
 .fa-instagram {
     color: white;
+}
+
+div.footNote {
+    color:whitesmoke;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width:500px) {
+    .ft {
+        display: flex;
+        flex-flow: column;
+    }
+    .ft > * {
+        flex: 1;
+        margin-bottom: 80px;
+    }
 }
