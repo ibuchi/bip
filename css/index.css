@@ -72,6 +72,13 @@ input[type=text]:focus {
     margin-left: 20px;
 }
 
+@media screen and (max-width: 500px) {
+    img.logo {
+     width: 50%;
+     
+    }
+}
+
 /*css for div conatining the text and button */
  div.cont {
     position: absolute;
@@ -193,7 +200,7 @@ a {
     width: 75%;
     position: relative;
     left: 5%;
-    }
+    } 
 }
 
 div.footer, div.footnote {
