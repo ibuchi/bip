@@ -170,6 +170,21 @@ a {
 
 
 
+
+
+
+
+
+
+.tem1 {
+    background-color: rgb(47, 165, 18);
+    height: 10px;
+    position: relative;
+    top: 100px;
+}
+
+
+
 .sweater,
 .sports,
 .tshirt {
@@ -202,6 +217,9 @@ a {
     left: 5%;
     } 
 }
+
+
+
 
 div.footer, div.footnote {
     background-color: rgb(16, 20, 80);
