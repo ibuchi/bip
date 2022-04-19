@@ -73,7 +73,12 @@
 
     <div class="background">
         <div class="cont">
-            <button class="btn">Shop Now</button>
+            <a href="www.google.com"><button id="myButton" class="btn" onclick="myShop()">Shop Now</button></a>
+            <script>
+                function myShop() {
+                    var x = document.getElementById("myButton").innerHTML= "All Items";
+                }
+            </script>
             <p>Rain and Harmattan</p>
         </div>
     </div>
