@@ -73,10 +73,13 @@
 
     <div class="background">
         <div class="cont">
-            <a href="www.google.com"><button id="myButton" class="btn" onclick="myShop()">Shop Now</button></a>
+            <a href="index1.html" target="_blank"><button id="myButton" class="btn" onclick="myShop()" onmouseover="btnn()" onmouseout="btnnn()">Shop Now</button></a>
             <script>
-                function myShop() {
+                function btnn() {
                     var x = document.getElementById("myButton").innerHTML= "All Items";
+                }
+                function btnnn() {
+                    document.getElementById("myButton").innerHTML="Shop Now";
                 }
             </script>
             <p>Rain and Harmattan</p>
