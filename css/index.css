@@ -4,6 +4,8 @@ body {
     
 }
 
+
+/* Search Bar */
 .main {
     overflow: hidden;
 }
@@ -169,40 +171,18 @@ a {
 }
 
 
-
-
-
-
-
-
-
-.tem1 {
-    background-color: rgb(47, 165, 18);
-    height: 10px;
-    position: relative;
-    top: 100px;
-}
-
-
-
 .sweater,
 .sports,
 .tshirt {
     margin: 10px;
-    padding: 20px;
+
+} 
+
+#products {
+    float: right;
+    position: relative;
+    left: 6%;
 }
-
-
-.container {
-    display: flex;
-    flex-flow: row;
-    
-}
-.container > *{
-    flex: 1;
-}
-
-
 
 @media screen and (max-width: 500px){
     .container {
@@ -218,13 +198,18 @@ a {
     } 
 }
 
-
-
-
-div.footer, div.footnote {
-    background-color: rgb(16, 20, 80);
-    min-width: 100vw;
+.absolute {
+    background-color: rgb(226, 43, 43);
+    float: right;
+    margin-right: 250px;
 }
+
+
+/* footer background color */
+#last, .footNote {
+    background-color: rgba(16, 20, 80);
+}
+
 
 .ft {
     display: flex;
